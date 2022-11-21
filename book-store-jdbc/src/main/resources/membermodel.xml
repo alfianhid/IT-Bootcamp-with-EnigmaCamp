@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Member1" class="com.alfianhid.model.Member">
+        <property name="firstName" value="Inez"/>
+        <property name="lastName" value="Amanda"/>
+        <property name="email" value="inez.amanda16@gmail.com"/>
+        <property name="username" value="bni_intern_inez"/>
+        <property name="password" value="p455w0rd"/>
+    </bean>
+    <bean id="Member2" class="com.alfianhid.model.Member">
+        <property name="firstName" value="Dimas"/>
+        <property name="lastName" value="Arif"/>
+        <property name="email" value="18081010093@student.upnjatim.ac.id"/>
+        <property name="username" value="bni_intern_dimas"/>
+        <property name="password" value="PaSsWoRd"/>
+    </bean>
+</beans>
